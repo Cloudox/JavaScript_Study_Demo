@@ -1,4 +1,4 @@
-function tabForward(event) {
+function tabForward(event) {// 输入满字符数后，自动聚焦到下一个输入框
 	var target = event.target;
 
 	if (target.value.length == target.maxLength) {
